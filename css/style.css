@@ -1,0 +1,20 @@
+k*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    box-sizing: inherit;
+    font-size: 62.5%;
+}
+body{
+    background: #000;
+}
+section{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url(../img/woman-in-black-tank-top-4499900.jpg);
+    background-size: cover;
+    clip-path: circle(10rem at var(--x) var(--y));
+}
