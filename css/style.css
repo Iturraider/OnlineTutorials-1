@@ -16,5 +16,5 @@ section{
     height: 100vh;
     background: url(../img/woman-in-black-tank-top-4499900.jpg);
     background-size: cover;
-    clip-path: circle(20rem at var(--x) var(--y));
+    clip-path: circle(200px at var(--x) var(--y));
 }
